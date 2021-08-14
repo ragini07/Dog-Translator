@@ -34,8 +34,12 @@ button {
     padding: 0.5rem;
     border-radius: 1rem;
     margin: 0.5rem;
+    cursor: pointer;
+    opacity: 0.8;
 }
-
+button:hover{
+    opacity: 1;
+}
 .translate-title {
     font-weight: bold;
 

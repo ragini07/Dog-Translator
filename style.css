@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans:ital,wght@1,300&display=swap');
+
+:root {
+    --primary-color: rgb(223, 255, 80);
+}
+
+body {
+    background-image: url('dog3.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: auto;
+    max-width: 60rem;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 2rem;
+}
+
+#input-text {
+    display: block;
+    width: 25rem;
+    height: 7rem;
+
+    border-radius: 0.5rem;
+}
+
+button {
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.translate-title {
+    font-weight: bold;
+
+}
+
+span {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+#output-text {
+    display: block;
+    width: 25rem;
+    height: 7rem;
+    color: black;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+footer {
+    margin-top: 6rem;
+    padding: 0.7rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 0.5rem;
+
+}
